@@ -1,0 +1,43 @@
+.work-scheme {
+  text-align: center;
+  padding: 72px 0 96px 0;
+  background: url("/img/content/work-scheme/work-scheme-mask.svg");
+  background-size: cover;
+  aspect-ratio: 1920/1098;
+
+  &__title {
+    margin-bottom: 24px;
+    color: var(--title-text-color);
+    font-family: "FuturaFuturisC", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+  }
+
+  &__subtitle {
+    font-size: 22px;
+    line-height: 100%;
+
+    color: var(--subtitle-and-smallTitle-color);
+  }
+
+  &__steps {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0;
+    flex-wrap: wrap;
+  }
+
+  &__button {
+    width: 300px;
+    height: 56px;
+    border-radius: 10px;
+    background: #ffa500;
+    font-family: "FuturaFuturisC", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 106%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "FuturaFuturisC";
+  src: local("FuturaFuturisC"), url("FuturaFuturisC.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaFuturisC";
+  src: local("FuturaFuturisC Bold"), local("FuturaFuturisC-Bold"),
+    url("FuturaFuturisC-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}

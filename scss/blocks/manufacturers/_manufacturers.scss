@@ -1,0 +1,104 @@
+.manufacturers {
+  margin-top: 130px;
+  text-align: center;
+  padding: 154px 0 60px 0;
+  aspect-ratio: 1920/728;
+
+  background: url("/img/content/manufacturers/manufacturers-mask.png"),
+    url("/img/content/manufacturers/manufacturers-bg.png");
+  background-size: cover;
+
+  @include retina(
+    url("/img/content/manufacturers/manufacturers-mask@2x.png"),
+    url("/img/content/manufacturers/manufacturers-bg@2x.png")
+  );
+
+  &__title {
+    color: #fff;
+    font-family: "FuturaFuturisC", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+  }
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    gap: 18px;
+    margin: 57px 0 42px 0;
+
+    .wrapper-button-left {
+      position: absolute;
+      top: calc(50% - 20px);
+      left: -110px;
+
+      & button {
+        position: relative;
+        width: 40px;
+        height: 40px;
+
+        background: url("/img/icons/slider/vector-left.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          border-radius: 100%;
+          background: #fff;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .wrapper-button-right {
+      position: absolute;
+      top: calc(50% - 20px);
+      right: -110px;
+
+      & button {
+        position: relative;
+        width: 40px;
+        height: 40px;
+
+        background: url("/img/icons/slider/vector-right.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          border-radius: 100%;
+          background: #fff;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .manufacturer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      width: 242px;
+      height: 174px;
+
+      box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+      background: #fff;
+    }
+  }
+
+  &__text {
+    text-align: left;
+    font-size: 20px;
+    line-height: 155%;
+  }
+}

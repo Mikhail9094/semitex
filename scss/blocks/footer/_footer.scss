@@ -1,0 +1,40 @@
+.footer {
+  background: var(--subtitle-and-smallTitle-color);
+
+  a {
+    color: var(--text-color);
+  }
+}
+
+.footer-nav {
+     height: 177px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-size: 18px; 
+    font-weight: 300; 
+    line-height: 122.8%; 
+}
+}
+
+
+
+
+.footer__button {
+  border-radius: 10px;
+  width: 261px;
+  height: 56px;
+  background: #969af7;
+  font-family: "FuturaFuturisC", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 106%;
+  text-align: center;
+  text-transform: uppercase;
+}

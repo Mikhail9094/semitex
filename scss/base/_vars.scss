@@ -1,0 +1,18 @@
+:root {
+  --text-color: #fff;
+
+  --title-text-color: #111;
+  --subtitle-and-smallTitle-color: #333;
+
+  --text-form: #626366;
+  --text-form-hint: #bcbfc4;
+  --fine-print: #c0c0c0;
+
+  --font-main: "FuturaBookC", sans-serif;
+}
+
+@mixin retina($mask, $bg) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background: $mask, $bg;
+  }
+}

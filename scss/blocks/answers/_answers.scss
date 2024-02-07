@@ -1,0 +1,28 @@
+.answers {
+  margin-top: -78px;
+  padding: 125px 0 95px 0;
+  background: url("/img/content/answers/answers-bg-mask.png"),
+    url("/img/content/answers/answers-bg.png");
+  background-size: cover;
+  aspect-ratio: 1920/1271;
+
+  @include retina(
+    url("/img/content/answers/answers-bg-mask@2x.png"),
+    url("/img/content/answers/answers-bg@2x.png")
+  );
+
+  &__title {
+    font-family: "FuturaFuturisC", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+}
+}

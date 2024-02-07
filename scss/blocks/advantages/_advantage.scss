@@ -1,0 +1,30 @@
+.advantage {
+  width: 369px;
+  height: 406px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 30px 0 rgba(9, 38, 192, 0.05);
+  background: url("/img/content/advantage-mask.svg");
+}
+.advantage__img {
+  width: 157px;
+  height: 162px;
+  margin: 40px 0;
+}
+.advantage__title {
+  margin-bottom: 14px;
+  color: #2a336c;
+  font-family: "FuturaFuturisC", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.advantage__text {
+  max-width: 305px;
+  color: #555;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 110%;
+}

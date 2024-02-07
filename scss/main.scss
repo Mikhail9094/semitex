@@ -1,0 +1,32 @@
+@import "./../fonts/FuturaFuturis/stylesheet.css";
+@import "./../fonts/Futura/stylesheet.css";
+
+// Base
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+
+// Blocks:
+// 1) header
+@import "./blocks/header/header";
+@import "./blocks/header/nav";
+@import "./blocks/header/info";
+@import "./blocks/header/communication-form";
+
+// 2) advantages
+@import "./blocks/advantages/advantages";
+@import "./blocks/advantages/advantage";
+
+// 3) manufacturers 
+@import "./blocks/manufacturers/manufacturers";
+
+// 4) work-scheme
+@import "./blocks/work-scheme/work-scheme";
+@import "./blocks/work-scheme/step";
+
+// 5) answers
+@import "./blocks/answers/answers";
+@import "./blocks/answers/answer";
+
+// 6) footer
+@import "./blocks/footer/footer";

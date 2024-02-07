@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+  background: url("/img/header/header-mask.svg"), url("/img/header/header-bg.png");
+  background-size: cover;
+  aspect-ratio: 1920/850;
+  color: var(--text-color);
+
+  @include retina(url("/img/header/header-mask.svg"), url("/img/header/header-bg@2х.png"));
+
+  a {
+    color: var(--text-color);
+  }
+}
+
+.header__nav {
+  margin-bottom: 100px;
+}
+
+.header__content {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  gap: 20px;
+}

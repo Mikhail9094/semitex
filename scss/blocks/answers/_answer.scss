@@ -1,0 +1,63 @@
+.answer {
+  background: #fff;
+  border-radius: 10px;
+
+  &__title {
+    height: 87px;
+    border-radius: 10px;
+    padding: 0 37px 0 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 50px -10px rgba(22, 126, 194, 0.2);
+    background: linear-gradient(180deg, #fff 0%, #bdc0ff 100%);
+
+    & span {
+      font-family: "FuturaDemiC", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 117%;
+      color: var(--subtitle-and-smallTitle-color);
+    }
+
+    & button {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      background: url("/img/icons/slider/vector-down.svg"), #757aef;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .answer__text {
+    display: none;
+    padding: 40px 43px 43px 53px;
+    font-size: 20px;
+    line-height: 135%;
+    color: var(--subtitle-and-smallTitle-color);
+  }
+}
+
+.answer-active {
+  border: 1px solid #167ec2;
+
+  .title-active {
+    box-shadow: none;
+    background: linear-gradient(180deg, #969af7 0%, #686eec 100%);
+
+    & span {
+      color: var(--text-color);
+    }
+
+    & button {
+      background: url("/img/icons/slider/vector-up.svg"), #fff;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .text-active {
+    display: block;
+  }
+}
